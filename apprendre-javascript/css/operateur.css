@@ -1,0 +1,17 @@
+body {
+    background-color: #111;
+    color: #EEE;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  p {
+      max-width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #EEE;
+      margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }

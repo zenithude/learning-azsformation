@@ -1,0 +1,7 @@
+/* Utilisons la classe double-space pour agrandir l'espace 
+** entre les deuxièmes et troisièmes paragraphes. 
+*/
+
+.double-space {
+    margin-bottom: 3em;
+}

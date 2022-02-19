@@ -1,0 +1,26 @@
+table, td {
+    border: 1px solid black;
+}
+
+
+table {
+    width: 250px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 33%;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

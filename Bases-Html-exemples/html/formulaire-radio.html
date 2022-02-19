@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Les formulaires avec choix unique</title>
+
+</head>
+
+<body>
+    <h1>Formulaire avec cases à cocher à choix unique</h1>
+
+    <form action="" method="get">
+        <!-- Chaque bouton possède le même attribut name 
+            et une valeur unique pour l'attribut value  -->
+        <input type="radio" name="vehicule" value="Velo">
+        <label for="vehicule1"> J'ai un vélo</label><br>
+        <input type="radio" name="vehicule" value="Voiture">
+        <label for="vehicule2"> J'ai une voiture</label><br>
+        <!-- L'attribut checked coche par défaut la case ou il est appliqué -->
+        <input type="radio" name="vehicule" value="Moto" checked>
+        <label for="vehicule3"> J'ai une moto</label><br><br>
+        <input type="submit" value="Envoyer">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+/*
+Si la taille de l'écran est supérieure à 600px 
+*/
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.max {
+    display: block;
+}
+
+.min {
+    display: none;
+}
+
+/*
+Si la taille de l'écran est inférieure à 600px 
+*/
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+        color: blue;
+    }
+    
+    .max {
+        display: none;
+    }
+    
+    .min {
+        display: block;
+    }
+}

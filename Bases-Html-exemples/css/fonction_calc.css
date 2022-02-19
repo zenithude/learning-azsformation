@@ -1,0 +1,22 @@
+/*
+Appliquons une bordure de couleur rouge à notre box-1 
+*/
+
+.box-1 {
+    border: 5px solid red
+}
+
+/*
+Utilisation de calc() sur width (largeur) de la box-2
+*/
+
+.box-2 {
+    /* marge interne de la boite */
+    padding: 10px;
+    /* largeur de la boite */
+    width: calc(50% - 50px);
+    /* couleur de fond de la boite */
+    background-color: green;
+    /* couleur du texte de la boite */
+    color: darkblue;
+}
