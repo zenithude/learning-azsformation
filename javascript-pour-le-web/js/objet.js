@@ -1,0 +1,21 @@
+/** Un objet en javascript  */
+
+const objet = {
+    nom: "mon nom",
+    id: 12,
+    message: "C'est mon message",
+    auteur: {
+        nom: "Doe",
+        prenom: "John"
+    },
+    commentaire: [
+        {
+            id: 1,
+            message: "commentaire n°1"
+        },
+        {
+            id: 2,
+            message: "commentaire n°2"
+        },
+    ]
+}

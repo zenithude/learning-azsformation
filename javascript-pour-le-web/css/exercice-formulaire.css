@@ -1,0 +1,25 @@
+#formulaire {
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+#affiche_information {
+    margin: 5px;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: mediumseagreen;
+}
+
+label {
+    display: block;
+    padding-top: 15px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
