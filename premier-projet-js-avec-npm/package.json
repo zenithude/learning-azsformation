@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack server"
   },
   "author": "z3npr0g",
   "license": "ISC",
@@ -15,6 +16,8 @@
     "babel-loader": "^8.2.3",
     "babel-polyfill": "^6.26.0",
     "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-serve": "^4.0.0"
   }
 }
