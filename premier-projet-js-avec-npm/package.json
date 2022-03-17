@@ -4,15 +4,17 @@
   "description": "Un petit projet pour demonstration",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "z3npr0g",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
-  },
-  "dependencies": {
-    
   }
 }
