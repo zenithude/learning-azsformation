@@ -1,0 +1,23 @@
+body {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5625;
+	color: rgba(0, 0, 0, 0.75);
+	text-align: left;
+	background-color: #c57676;
+}
+
+/* Container */
+.container {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #c57676;
+}
+
+
+
