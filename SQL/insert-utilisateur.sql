@@ -1,0 +1,1 @@
+INSERT INTO `utilisateur` (`nom`, `prenom`, `email`) VALUES ('Malet', 'David', 'azsformation@dsm-it.fr');

@@ -6,12 +6,21 @@
     width: 95%;
     justify-content: space-between;
 }
+
+
+
 .description {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 65%;
     border: 1px solid black;
+}
+
+.description p {
+    width: 80%;
+    line-height: 1.5rem;
 }
 
 .oeuvres {
@@ -20,4 +29,28 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+    .description {
+        width: 45%;
+    }
+
+    .oeuvres {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .description {
+        width: 95%;
+    }
+
+    .oeuvres {
+        width: 95%;
+    }
 }

@@ -1,0 +1,15 @@
+CREATE TABLE livre (
+
+id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+titre VARCHAR(100) NOT NULL,
+
+auteur VARCHAR(100),
+
+nombre_page INTEGER,
+
+style VARCHAR(100),
+
+disponible BOOLEAN DEFAULT true
+
+);
