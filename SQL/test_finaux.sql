@@ -49,6 +49,33 @@ INSERT INTO `aliment` VALUES (1,'pomme','sans marque',19.1,72,0.2,0.4,NULL,2),(2
 UNLOCK TABLES;
 
 --
+-- Table structure for table `aliment_lieu`
+--
+
+DROP TABLE IF EXISTS `aliment_lieu`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `aliment_lieu` (
+  `aliment_id` int(11) NOT NULL,
+  `lieu_id` int(11) NOT NULL,
+  PRIMARY KEY (`aliment_id`,`lieu_id`),
+  KEY `lieu_id` (`lieu_id`),
+  CONSTRAINT `aliment_lieu_ibfk_1` FOREIGN KEY (`aliment_id`) REFERENCES `aliment` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `aliment_lieu_ibfk_2` FOREIGN KEY (`lieu_id`) REFERENCES `lieu` (`id`) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aliment_lieu`
+--
+
+LOCK TABLES `aliment_lieu` WRITE;
+/*!40000 ALTER TABLE `aliment_lieu` DISABLE KEYS */;
+INSERT INTO `aliment_lieu` VALUES (11,1);
+/*!40000 ALTER TABLE `aliment_lieu` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `famille`
 --
 
@@ -94,6 +121,31 @@ LOCK TABLES `langue` WRITE;
 /*!40000 ALTER TABLE `langue` DISABLE KEYS */;
 INSERT INTO `langue` VALUES (1,'français'),(2,'anglais');
 /*!40000 ALTER TABLE `langue` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lieu`
+--
+
+DROP TABLE IF EXISTS `lieu`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `lieu` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(100) NOT NULL,
+  `type` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lieu`
+--
+
+LOCK TABLES `lieu` WRITE;
+/*!40000 ALTER TABLE `lieu` DISABLE KEYS */;
+INSERT INTO `lieu` VALUES (1,'Carrefour City','supermarché');
+/*!40000 ALTER TABLE `lieu` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -198,4 +250,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-29  7:06:34
+-- Dump completed on 2022-04-29  8:27:59
