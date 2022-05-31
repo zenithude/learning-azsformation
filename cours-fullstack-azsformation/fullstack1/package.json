@@ -1,0 +1,14 @@
+{
+  "name": "fullstack1",
+  "version": "1.0.0",
+  "description": "1er test avec express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "z3npr0g",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
