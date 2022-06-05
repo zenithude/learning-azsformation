@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"rest-crud-api","dependencies":{"express-flash":{"version":"0.0.2"},"express-session":{"version":"1.17.3"},"express":{"version":"4.18.1"},"mysql":{"version":"2.18.1"},"pug":{"version":"3.0.2"}}}
