@@ -1,0 +1,16 @@
+{
+  "name": "upload_with_multer",
+  "version": "1.0.0",
+  "description": "Simple app to upload files to app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "z3npr0g",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.2"
+  }
+}
