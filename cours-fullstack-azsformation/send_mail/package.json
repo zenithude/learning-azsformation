@@ -1,0 +1,14 @@
+{
+  "name": "send_mail",
+  "version": "1.0.0",
+  "description": "Simple exemple d'envoi de mail avec nodemailer et mailtrap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "z3npr0g",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.7.5"
+  }
+}

@@ -1,0 +1,113 @@
+/*
+Theme Name: montheme
+Author: Z3npr0g
+Author URI: http://zenprog.freeshell.net
+Description: Un theme simple et responsive avec Html5
+Version: 1.0.0
+License: GNU General Public License V3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #918686;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-logo,
+footer {
+  width: 100%;
+  padding-left: 1%;
+  margin-bottom: 8px;
+  background-color: #2a81dd;
+  border: 1px solid #2a81dd;
+}
+
+body > header > h1 > a {
+color: #ffffff;
+font-weight: 700;
+}
+
+footer {
+  margin-top: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 'Margin: 0 auto' centers block content on the page */
+.wrap {
+  width: 99%;
+  margin: 0 auto;
+}
+
+.content-area {
+  display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+  display: inline-block;
+}
+
+.primary-sidebar {
+  width: 25%;
+  padding: 1%;
+  vertical-align: top;
+  background-color: #bac4bf;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .article-loop {
+    width: 99%;
+  }
+}
+
+.article-full {
+  width: 99%;
+  padding: 1%;
+}
+
+.article-loop,
+.article-full {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #bac4bf;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+ul  {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 400px) {
+  .content-area,
+  .primary-sidebar {
+    width: 100%;
+  }
+}
